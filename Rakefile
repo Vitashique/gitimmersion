@@ -9,5 +9,5 @@ Rails.application.load_tasks
 task :default => :run
 
 task :run do
-  require './lib/hello'
+  ruby '-Ilib', 'lib/hello.rb'
 end
