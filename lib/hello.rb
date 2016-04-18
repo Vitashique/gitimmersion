@@ -1,8 +1,9 @@
+<<<<<<< HEAD
 #puts "Hello, World"
 #puts "Hello, #{ARGV.first}!"
+=======
+puts "What's your name"
+my_name = gets.strip
+>>>>>>> 672ce7c88b82ee6618d7c7b72f404e908424d645
 
-#Default is "World"
-# Author: Jim Weirich (jim@somewhere.com)
-name = ARGV.first || "World"
-
-puts "Hello, #{name}!"
+puts "Hello, #{my_name}!"
